@@ -61,7 +61,7 @@ If you already have a set of Swagger-compliant JSON files, you can configure thi
 ```yaml
  # app/config/routing.yml
 al_swagger_ui_static_resources:
-    resource: @ALSwaggerUI/Resources/config/static_resources_routing.yml
+    resource: @ALSwaggerUIBundle/Resources/config/static_resources_routing.yml
     prefix: /swagger-docs
 ```
 3. Configure the `static_resources` config:
